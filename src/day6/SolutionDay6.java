@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 import static utility.AOCUtility.readFile;
 
-public class Solution6 {
+public class SolutionDay6 {
     private static final boolean USE_FANCY_SOLUTION = true;
 
     public static void main(String[] args) {
@@ -33,8 +33,8 @@ public class Solution6 {
         answers.add(currentGroup);
 
 
-        System.out.println("solutionA = " + answers.stream().mapToInt((group) -> group.stream().reduce(Solution6::combineTwoSets).get().size()).sum());
-        System.out.println("solutionB = " + answers.stream().mapToInt((group) -> group.stream().reduce(Solution6::intersectTwoSets).get().size()).sum());
+        System.out.println("solutionA = " + answers.stream().mapToInt((group) -> group.stream().reduce(SolutionDay6::combineTwoSets).get().size()).sum());
+        System.out.println("solutionB = " + answers.stream().mapToInt((group) -> group.stream().reduce(SolutionDay6::intersectTwoSets).get().size()).sum());
     }
 
     private static void useReadableSolution(List<String> input) {

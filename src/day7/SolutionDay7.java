@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 import static utility.AOCUtility.readFile;
 
-public class Solution7 {
+public class SolutionDay7 {
     private static final String COLOR_PATTERN = "^(.*) bags contain (.*)\\.$";
     private static final String CONTAINS_PATTERN = "(\\d*) (\\D*) bag[s]?";
 

@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 import static utility.AOCUtility.readFile;
 
-public class Solution4 {
+public class SolutionDay4 {
     private static String[] valid_keys = {"byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"};
 
     public static void main(String[] args) {

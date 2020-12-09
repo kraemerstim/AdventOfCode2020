@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 import static utility.AOCUtility.readFile;
 
-public class Solution8 {
+public class SolutionDay8 {
     public static void main(String[] args) {
         final String INSTRUCTION_PATTERN = "^(\\S{3}) ([+-]\\d*)$";
 

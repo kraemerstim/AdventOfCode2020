@@ -5,12 +5,12 @@ import java.util.stream.Collectors;
 
 import static utility.AOCUtility.readFile;
 
-public class Solution5 {
+public class SolutionDay5 {
     public static void main(String[] args) {
         var fileName = "resources/input/day5.txt";
         List<String> input = readFile(fileName);
 
-        List<Integer> result = input.stream().map(Solution5::binaryConverter).collect(Collectors.toList());
+        List<Integer> result = input.stream().map(SolutionDay5::binaryConverter).collect(Collectors.toList());
         int solutionA = result.stream().mapToInt(v -> v).max().orElse(-1);
 
         System.out.println("SolutionA = " + solutionA);
